@@ -80,6 +80,9 @@ Place Lachambeaudie, 75012 Paris<br>
                                                                         <span>Place Lachambeaudie</span>
                                                                         <span>75012 Paris</span>
                                                                     </div>
+                                                                    <p class="text-center mt-5">
+                                                                        Le parking le plus proche est le parking de gare de Bercy, dont l'entrée est située place Lachambeaudie.
+                                                                    </p>
                                                                 </div>
                                                                 <div class="col-xs-12 col-sm-7">
                                                                     <iframe
@@ -106,74 +109,76 @@ Place Lachambeaudie, 75012 Paris<br>
                                                 </div>
                                                 <div class="slide-body">
                                                     <p class="text-center">
-                                                        Le livret de baptême sera disponible ici bientôt.
+                                                        <a href="files/livret.pdf" target="_blank">
+                                                            Téléchargez le livret de baptême.
+                                                        </a>
                                                     </p>
                                                     <p class="text-center">
-                                                        Si cela vous est possible, nous vous recommandons de l'imprimer.
+                                                        Nous vous recommandons de le télécharger à l'avance.
                                                     </p>
                                                 </div>
                                             </div>
                                         </li>
-                                        <li id="li_rsvp">
-                                            <div class="slide" id="rsvp">
-                                                <div class="slide-title text-center">
-                                                    <h2>Votre réponse</h2>
-                                                    <hr />
-                                                </div>
-                                                <div class="slide-body">
-                                                    <div class="row">
-                                                        <div class="col-xs-12">
-                                                            <form id="rsvp-form" onchange="mail(this)" class="form" role="rsvp">
-                                                                <div class="row question">
-                                                                    <span class="question-title slide-title col-xs-12">Votre nom</span>
-                                                                    <div class="col-xs-12">
-                                                                        <span>
-                                                                            <input name="name" class="form-control" maxlength="100" required type="text">
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row question">
-                                                                    <span class="question-title slide-title col-xs-12">Réponse</span>
-                                                                    <div class="col-xs-12">
-                                                                        <ul class="choice-list">
-                                                                            <li class="radio">
-                                                                                <label for="response_yes">
-                                                                                    <input type="radio" required id="response_yes" name="response" value="yes">
-                                                                                    Nous y serons !
-                                                                                </label>
-                                                                            </li>
-                                                                            <li class="radio">
-                                                                                <label for="response_no">
-                                                                                    <input type="radio" id="response_no" name="response" value="no">
-                                                                                    Nous ne pourrons pas être là :(
-                                                                                </label>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-                                                                <div id="nb-guests-field" class="row question hidden">
-                                                                    <span class="question-title slide-title col-xs-12">Combien de personnes ?</span>
-                                                                    <div class="col-xs-12">
-                                                                        <span>
-                                                                            <input name="nbGuests" class="form-control disabled" maxlength="100" required type="text">
-                                                                        </span>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row question">
-                                                                    <span class="question-title slide-title col-xs-12">Un petit message ?</span>
-                                                                    <div class="col-xs-12">
-                                                                        <textarea name="message" class="form-control" maxlength="255"></textarea>
-                                                                    </div>
-                                                                </div>
-                                                                <a id="submit-rsvp" class="slide-title btn btn-primary disabled" role="submit" href>
-                                                                    Envoyer par email
-                                                                </a>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
+<!--                                        <li id="li_rsvp">-->
+<!--                                            <div class="slide" id="rsvp">-->
+<!--                                                <div class="slide-title text-center">-->
+<!--                                                    <h2>Votre réponse</h2>-->
+<!--                                                    <hr />-->
+<!--                                                </div>-->
+<!--                                                <div class="slide-body">-->
+<!--                                                    <div class="row">-->
+<!--                                                        <div class="col-xs-12">-->
+<!--                                                            <form id="rsvp-form" onchange="mail(this)" class="form" role="rsvp">-->
+<!--                                                                <div class="row question">-->
+<!--                                                                    <span class="question-title slide-title col-xs-12">Votre nom</span>-->
+<!--                                                                    <div class="col-xs-12">-->
+<!--                                                                        <span>-->
+<!--                                                                            <input name="name" class="form-control" maxlength="100" required type="text">-->
+<!--                                                                        </span>-->
+<!--                                                                    </div>-->
+<!--                                                                </div>-->
+<!--                                                                <div class="row question">-->
+<!--                                                                    <span class="question-title slide-title col-xs-12">Réponse</span>-->
+<!--                                                                    <div class="col-xs-12">-->
+<!--                                                                        <ul class="choice-list">-->
+<!--                                                                            <li class="radio">-->
+<!--                                                                                <label for="response_yes">-->
+<!--                                                                                    <input type="radio" required id="response_yes" name="response" value="yes">-->
+<!--                                                                                    Nous y serons !-->
+<!--                                                                                </label>-->
+<!--                                                                            </li>-->
+<!--                                                                            <li class="radio">-->
+<!--                                                                                <label for="response_no">-->
+<!--                                                                                    <input type="radio" id="response_no" name="response" value="no">-->
+<!--                                                                                    Nous ne pourrons pas être là :(-->
+<!--                                                                                </label>-->
+<!--                                                                            </li>-->
+<!--                                                                        </ul>-->
+<!--                                                                    </div>-->
+<!--                                                                </div>-->
+<!--                                                                <div id="nb-guests-field" class="row question hidden">-->
+<!--                                                                    <span class="question-title slide-title col-xs-12">Combien de personnes ?</span>-->
+<!--                                                                    <div class="col-xs-12">-->
+<!--                                                                        <span>-->
+<!--                                                                            <input name="nbGuests" class="form-control disabled" maxlength="100" required type="text">-->
+<!--                                                                        </span>-->
+<!--                                                                    </div>-->
+<!--                                                                </div>-->
+<!--                                                                <div class="row question">-->
+<!--                                                                    <span class="question-title slide-title col-xs-12">Un petit message ?</span>-->
+<!--                                                                    <div class="col-xs-12">-->
+<!--                                                                        <textarea name="message" class="form-control" maxlength="255"></textarea>-->
+<!--                                                                    </div>-->
+<!--                                                                </div>-->
+<!--                                                                <a id="submit-rsvp" class="slide-title btn btn-primary disabled" role="submit" href>-->
+<!--                                                                    Envoyer par email-->
+<!--                                                                </a>-->
+<!--                                                            </form>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!--                                        </li>-->
                                     </ul>
                                 </div>
                             </div>
